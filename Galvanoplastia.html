@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galvanoplastia - Trabalho Escolar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .bg-metallic {
+      background: linear-gradient(135deg, #d1d5db, #e5e7eb, #f3f4f6);
+    }
+    .bg-electrolyte {
+      background: linear-gradient(135deg, #1e40af, #3b82f6, #60a5fa);
+    }
+    .hover-scale {
+      transition: transform 0.3s ease;
+    }
+    .hover-scale:hover {
+      transform: scale(1.05);
+    }
+    .section-title {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50%;
+      height: 4px;
+      background: linear-gradient(to right, #f59e0b, #d97706);
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body class="bg-metallic">
+  <!-- Header -->
+  <header class="bg-electrolyte text-white p-8 text-center shadow-lg">
+    <h1 class="text-5xl font-bold tracking-tight">Galvanoplastia: Ciência e Brilho!</h1>
+  </header>
+
+  <!-- Introdução Section -->
+  <section id="introducao" class="py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-8 section-title">O que é Galvanoplastia?</h2>
+      <div class="flex flex-col md:flex-row items-center gap-8">
+        <div class="md:w-1/2">
+          <p class="text-lg text-gray-700 leading-relaxed">
+            A galvanoplastia é um processo eletroquímico que usa eletricidade para depositar uma camada fina de metal, como ouro, prata, cobre ou níquel, sobre um objeto. Isso melhora a aparência, protege contra corrosão e aumenta a durabilidade.
+          </p>
+          <p class="text-lg text-gray-700 mt-4 leading-relaxed">
+            Pense nisso como um "banho metálico" que transforma objetos comuns em itens brilhantes e resistentes, usados em tudo, desde joias até peças de carros!
+          </p>
+        </div>
+        <div class="md:w-1/2 flex justify-center">
+          <img src="https://github.com/GiCy2210/Qu-mica/blob/main/abe8409e_resized.png?raw=true" alt="Galvanoplastia" class="rounded-xl shadow-xl hover-scale">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Processo Section -->
+  <section id="processo" class="bg-electrolyte text-white py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-8 section-title">Como Funciona a Galvanoplastia?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg text-center hover-scale">
+          <h3 class="text-2xl font-semibold text-amber-400 mb-4">1. Preparação da Superfície</h3>
+          <p class="text-gray-200">O objeto é cuidadosamente limpo para remover sujeira, óleos ou oxidação, garantindo que o metal adira bem.</p>
+        </div>
+        <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg text-center hover-scale">
+          <h3 class="text-2xl font-semibold text-amber-400 mb-4">2. Banho Eletrolítico</h3>
+          <p class="text-gray-200">O objeto é mergulhado em uma solução com íons metálicos. A eletricidade faz esses íons se depositarem na superfície.</p>
+        </div>
+        <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg text-center hover-scale">
+          <h3 class="text-2xl font-semibold text-amber-400 mb-4">3. Revestimento Final</h3>
+          <p class="text-gray-200">Uma camada uniforme de metal é formada, deixando o objeto brilhante, protegido e pronto para uso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Aplicações Section -->
+  <section id="aplicacoes" class="py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-8 section-title">Onde a Galvanoplastia é Usada?</h2>
+      <ul class="list-none text-lg text-gray-700 max-w-2xl mx-auto space-y-4">
+        <li class="flex items-center">
+          <span class="text-amber-500 mr-2">✦</span> <strong>Indústria Automotiva:</strong> Reveste peças como para-choques e rodas para maior resistência à corrosão.
+        </li>
+        <li class="flex items-center">
+          <span class="text-amber-500 mr-2">✦</span> <strong>Joalheria:</strong> Aplica camadas de ouro ou prata em anéis, brincos e pulseiras para brilho e beleza.
+        </li>
+        <li class="flex items-center">
+          <span class="text-amber-500 mr-2">✦</span> <strong>Eletrônica:</strong> Melhora a condutividade de conectores e circuitos com revestimentos metálicos.
+        </li>
+        <li class="flex items-center">
+          <span class="text-amber-500 mr-2">✦</span> <strong>Objetos Decorativos:</strong> Cria acabamentos brilhantes em troféus, medalhas e itens de decoração.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Benefícios Section -->
+  <section id="beneficios" class="bg-electrolyte text-white py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-8 section-title">Benefícios da Galvanoplastia</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg text-center hover-scale">
+          <h3 class="text-2xl font-semibold text-amber-400 mb-4">Durabilidade</h3>
+          <p class="text-gray-200">A camada metálica da galvanoplastia protege o objeto contra desgaste e corrosão, aumentando sua resistência e prolongando sua vida útil.</p>
+        </div>
+        <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg text-center hover-scale">
+          <h3 class="text-2xl font-semibold text-amber-400 mb-4">Estética</h3>
+          <p class="text-gray-200">A galvanoplastia proporciona acabamentos brilhantes e elegantes, valorizando joias, decoração e produtos de luxo.</p>
+        </div>
+        <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg text-center hover-scale">
+          <h3 class="text-2xl font-semibold text-amber-400 mb-4">Funcionalidade</h3>
+          <p class="text-gray-200">A galvanoplastia melhora a condutividade elétrica e outras características de componentes eletrônicos, garantindo melhor desempenho e eficiência.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curiosidades Section -->
+  <section id="curiosidades" class="py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-8 section-title">Curiosidades</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow-lg hover-scale">
+          <p class="text-gray-700"><strong>História:</strong>
+            A galvanoplastia surgiu no século XIX com base nas descobertas sobre eletrólise (Faraday) e foi aplicada na prática por inventores como Moritz von Jacobi; desde então evoluiu para uso industrial em proteção, decoração e componentes elétricos.!</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg hover-scale">
+          <p class="text-gray-700"><strong>Sustentabilidade:</strong>A galvanoplastia surgiu no século XIX, baseada nas descobertas de Faraday sobre eletrólise, e foi aplicada por Moritz von Jacobi em experimentos de revestimento metálico. Hoje, é usada industrialmente para proteção, acabamento decorativo e fabricação de componentes elétricos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conclusão Section -->
+  <section id="conclusao" class="bg-gradient-to-r from-amber-500 to-amber-700 text-white py-16 text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold mb-4 section-title">Por que Estudar Galvanoplastia?</h2>
+      <p class="text-lg leading-relaxed">
+        Estudar a galvanoplastia é importante porque ela permite compreender como metais podem ser protegidos da corrosão, receber acabamento estético e adquirir propriedades especiais, como maior dureza ou condutividade. Além disso, o conhecimento dessa técnica é essencial para aplicações industriais, tecnológicas e de engenharia, ajudando a criar produtos mais duráveis e funcionais.
+      </p>
+      <p class="text-lg mt-4 font-semibold">Obrigado por nos escutar!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>Feito por Giovane Micael, Milton Cardoso, Rafael Grizante e Miguel Henrique - PEI Manuel Ignácio da Silva - 2025</p>
+    <p class="text-sm mt-2">Inspirado em: <a href="https://prezi.com/view/waoUWHbWFn9C6C5AvmfT/" class="underline hover:text-amber-400">Apresentação Prezi sobre Galvanoplastia</a></p>
+  </footer>
+
+  <script>
+    // Smooth scroll for navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
